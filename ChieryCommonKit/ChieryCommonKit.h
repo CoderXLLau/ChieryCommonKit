@@ -6,8 +6,6 @@
 //  Copyright © 2018年 com.chiery.com. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIkit/UIkit.h>
 
-@interface ChieryCommonKit : NSObject
-
-@end
+#import "Masonry.h"

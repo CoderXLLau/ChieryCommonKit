@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29F214E12002846E000D9EE0 /* ChieryCommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214E02002846E000D9EE0 /* ChieryCommonKit.m */; };
-		29F214E22002846E000D9EE0 /* ChieryCommonKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29F214DF2002846E000D9EE0 /* ChieryCommonKit.h */; };
+		29F214E22002846E000D9EE0 /* ChieryCommonKit.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 29F214DF2002846E000D9EE0 /* ChieryCommonKit.h */; };
+		29F215042002852D000D9EE0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214EB2002852D000D9EE0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		29F215052002852D000D9EE0 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214F42002852D000D9EE0 /* ViewController+MASAdditions.m */; };
+		29F215062002852E000D9EE0 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214F82002852D000D9EE0 /* MASCompositeConstraint.m */; };
+		29F215072002852E000D9EE0 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214F92002852D000D9EE0 /* MASConstraintMaker.m */; };
+		29F215082002852E000D9EE0 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214FA2002852D000D9EE0 /* MASLayoutConstraint.m */; };
+		29F215092002852E000D9EE0 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214FB2002852D000D9EE0 /* NSArray+MASAdditions.m */; };
+		29F2150A2002852E000D9EE0 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214FC2002852D000D9EE0 /* View+MASAdditions.m */; };
+		29F2150B2002852E000D9EE0 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214FF2002852D000D9EE0 /* MASConstraint.m */; };
+		29F2150C2002852E000D9EE0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F215012002852D000D9EE0 /* MASViewConstraint.m */; };
+		29F2150D2002852E000D9EE0 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F215022002852D000D9EE0 /* MASViewAttribute.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		29F214DA2002846E000D9EE0 /* CopyFiles */ = {
+		29F214DA2002846E000D9EE0 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				29F214E22002846E000D9EE0 /* ChieryCommonKit.h in CopyFiles */,
+				29F214E22002846E000D9EE0 /* ChieryCommonKit.h in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -27,7 +37,33 @@
 /* Begin PBXFileReference section */
 		29F214DC2002846E000D9EE0 /* libChieryCommonKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libChieryCommonKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F214DF2002846E000D9EE0 /* ChieryCommonKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChieryCommonKit.h; sourceTree = "<group>"; };
-		29F214E02002846E000D9EE0 /* ChieryCommonKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChieryCommonKit.m; sourceTree = "<group>"; };
+		29F214EA2002852D000D9EE0 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		29F214EB2002852D000D9EE0 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		29F214EC2002852D000D9EE0 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		29F214ED2002852D000D9EE0 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		29F214EE2002852D000D9EE0 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		29F214EF2002852D000D9EE0 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		29F214F02002852D000D9EE0 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		29F214F12002852D000D9EE0 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		29F214F22002852D000D9EE0 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		29F214F32002852D000D9EE0 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		29F214F42002852D000D9EE0 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		29F214F52002852D000D9EE0 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		29F214F62002852D000D9EE0 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		29F214F72002852D000D9EE0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		29F214F82002852D000D9EE0 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		29F214F92002852D000D9EE0 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		29F214FA2002852D000D9EE0 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		29F214FB2002852D000D9EE0 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		29F214FC2002852D000D9EE0 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		29F214FD2002852D000D9EE0 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		29F214FE2002852D000D9EE0 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		29F214FF2002852D000D9EE0 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		29F215002002852D000D9EE0 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		29F215012002852D000D9EE0 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		29F215022002852D000D9EE0 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		29F215032002852D000D9EE0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29F2151020028790000D9EE0 /* ChieryCommonKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChieryCommonKit-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +96,52 @@
 		29F214DE2002846E000D9EE0 /* ChieryCommonKit */ = {
 			isa = PBXGroup;
 			children = (
+				29F214E82002852D000D9EE0 /* 3rd */,
 				29F214DF2002846E000D9EE0 /* ChieryCommonKit.h */,
-				29F214E02002846E000D9EE0 /* ChieryCommonKit.m */,
+				29F2151020028790000D9EE0 /* ChieryCommonKit-Prefix.pch */,
 			);
 			path = ChieryCommonKit;
+			sourceTree = "<group>";
+		};
+		29F214E82002852D000D9EE0 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				29F214E92002852D000D9EE0 /* Masonry */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		29F214E92002852D000D9EE0 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				29F214EA2002852D000D9EE0 /* MASCompositeConstraint.h */,
+				29F214EB2002852D000D9EE0 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				29F214EC2002852D000D9EE0 /* MASConstraint+Private.h */,
+				29F214ED2002852D000D9EE0 /* MASLayoutConstraint.h */,
+				29F214EE2002852D000D9EE0 /* NSArray+MASShorthandAdditions.h */,
+				29F214EF2002852D000D9EE0 /* MASConstraintMaker.h */,
+				29F214F02002852D000D9EE0 /* View+MASAdditions.h */,
+				29F214F12002852D000D9EE0 /* NSArray+MASAdditions.h */,
+				29F214F22002852D000D9EE0 /* MASUtilities.h */,
+				29F214F32002852D000D9EE0 /* MASViewAttribute.h */,
+				29F214F42002852D000D9EE0 /* ViewController+MASAdditions.m */,
+				29F214F52002852D000D9EE0 /* MASViewConstraint.h */,
+				29F214F62002852D000D9EE0 /* MASConstraint.h */,
+				29F214F72002852D000D9EE0 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				29F214F82002852D000D9EE0 /* MASCompositeConstraint.m */,
+				29F214F92002852D000D9EE0 /* MASConstraintMaker.m */,
+				29F214FA2002852D000D9EE0 /* MASLayoutConstraint.m */,
+				29F214FB2002852D000D9EE0 /* NSArray+MASAdditions.m */,
+				29F214FC2002852D000D9EE0 /* View+MASAdditions.m */,
+				29F214FD2002852D000D9EE0 /* View+MASShorthandAdditions.h */,
+				29F214FE2002852D000D9EE0 /* Masonry.h */,
+				29F214FF2002852D000D9EE0 /* MASConstraint.m */,
+				29F215002002852D000D9EE0 /* ViewController+MASAdditions.h */,
+				29F215012002852D000D9EE0 /* MASViewConstraint.m */,
+				29F215022002852D000D9EE0 /* MASViewAttribute.m */,
+				29F215032002852D000D9EE0 /* Info.plist */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,7 +153,7 @@
 			buildPhases = (
 				29F214D82002846E000D9EE0 /* Sources */,
 				29F214D92002846E000D9EE0 /* Frameworks */,
-				29F214DA2002846E000D9EE0 /* CopyFiles */,
+				29F214DA2002846E000D9EE0 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -123,7 +201,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29F214E12002846E000D9EE0 /* ChieryCommonKit.m in Sources */,
+				29F215092002852E000D9EE0 /* NSArray+MASAdditions.m in Sources */,
+				29F2150D2002852E000D9EE0 /* MASViewAttribute.m in Sources */,
+				29F215062002852E000D9EE0 /* MASCompositeConstraint.m in Sources */,
+				29F2150B2002852E000D9EE0 /* MASConstraint.m in Sources */,
+				29F215072002852E000D9EE0 /* MASConstraintMaker.m in Sources */,
+				29F2150C2002852E000D9EE0 /* MASViewConstraint.m in Sources */,
+				29F2150A2002852E000D9EE0 /* View+MASAdditions.m in Sources */,
+				29F215042002852D000D9EE0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				29F215082002852E000D9EE0 /* MASLayoutConstraint.m in Sources */,
+				29F215052002852D000D9EE0 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +326,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MN863V35DU;
+				GCC_PREFIX_HEADER = "ChieryCommonKit/ChieryCommonKit-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -251,6 +339,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MN863V35DU;
+				GCC_PREFIX_HEADER = "ChieryCommonKit/ChieryCommonKit-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
