@@ -21,8 +21,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		C02B8A5C20079C9C00948135 /* ChieryCommonKit_a.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B8A5B20079C9C00948135 /* ChieryCommonKit_a.m */; };
-		C02B8A5D20079C9C00948135 /* ChieryCommonKit_a.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C02B8A5A20079C9C00948135 /* ChieryCommonKit_a.h */; };
 		C02B8A6520079CD700948135 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214EB2002852D000D9EE0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		C02B8A6620079CD700948135 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214F42002852D000D9EE0 /* ViewController+MASAdditions.m */; };
 		C02B8A6720079CD700948135 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214F82002852D000D9EE0 /* MASCompositeConstraint.m */; };
@@ -43,6 +41,7 @@
 		C02B8A7620079CD700948135 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214FF2002852D000D9EE0 /* MASConstraint.m */; };
 		C02B8A7720079CD700948135 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F215012002852D000D9EE0 /* MASViewConstraint.m */; };
 		C02B8A7820079CD700948135 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F215022002852D000D9EE0 /* MASViewAttribute.m */; };
+		C02B8A7A20079F2200948135 /* ChieryCommonKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29F214DF2002846E000D9EE0 /* ChieryCommonKit.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,7 +51,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				C02B8A5D20079C9C00948135 /* ChieryCommonKit_a.h in CopyFiles */,
+				C02B8A7A20079F2200948135 /* ChieryCommonKit.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,8 +88,6 @@
 		C02B8A3D20079C0500948135 /* ChieryCommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChieryCommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02B8A4020079C0500948135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C02B8A5820079C9C00948135 /* libChieryCommonKit_a.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libChieryCommonKit_a.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C02B8A5A20079C9C00948135 /* ChieryCommonKit_a.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChieryCommonKit_a.h; sourceTree = "<group>"; };
-		C02B8A5B20079C9C00948135 /* ChieryCommonKit_a.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChieryCommonKit_a.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				29F214DE2002846E000D9EE0 /* ChieryCommonKit */,
-				C02B8A5920079C9C00948135 /* ChieryCommonKit_a */,
 				29F214DD2002846E000D9EE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -178,15 +174,6 @@
 				29F215032002852D000D9EE0 /* Info.plist */,
 			);
 			path = Masonry;
-			sourceTree = "<group>";
-		};
-		C02B8A5920079C9C00948135 /* ChieryCommonKit_a */ = {
-			isa = PBXGroup;
-			children = (
-				C02B8A5A20079C9C00948135 /* ChieryCommonKit_a.h */,
-				C02B8A5B20079C9C00948135 /* ChieryCommonKit_a.m */,
-			);
-			path = ChieryCommonKit_a;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,7 +320,6 @@
 				C02B8A7120079CD700948135 /* MASCompositeConstraint.m in Sources */,
 				C02B8A7620079CD700948135 /* MASConstraint.m in Sources */,
 				C02B8A7220079CD700948135 /* MASConstraintMaker.m in Sources */,
-				C02B8A5C20079C9C00948135 /* ChieryCommonKit_a.m in Sources */,
 				C02B8A7720079CD700948135 /* MASViewConstraint.m in Sources */,
 				C02B8A7520079CD700948135 /* View+MASAdditions.m in Sources */,
 				C02B8A6F20079CD700948135 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
