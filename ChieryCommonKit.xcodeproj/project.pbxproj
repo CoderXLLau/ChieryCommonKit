@@ -6,36 +6,59 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		C02B8A6120079CAE00948135 /* ChieryCommonKit_Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C02B8A6220079CAE00948135 /* Build configuration list for PBXAggregateTarget "ChieryCommonKit_Universal" */;
+			buildPhases = (
+				C02B8A7920079CFC00948135 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = ChieryCommonKit_Universal;
+			productName = ChieryCommonKit_Universal;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		29F214E22002846E000D9EE0 /* ChieryCommonKit.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 29F214DF2002846E000D9EE0 /* ChieryCommonKit.h */; };
-		29F215042002852D000D9EE0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214EB2002852D000D9EE0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		29F215052002852D000D9EE0 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214F42002852D000D9EE0 /* ViewController+MASAdditions.m */; };
-		29F215062002852E000D9EE0 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214F82002852D000D9EE0 /* MASCompositeConstraint.m */; };
-		29F215072002852E000D9EE0 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214F92002852D000D9EE0 /* MASConstraintMaker.m */; };
-		29F215082002852E000D9EE0 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214FA2002852D000D9EE0 /* MASLayoutConstraint.m */; };
-		29F215092002852E000D9EE0 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214FB2002852D000D9EE0 /* NSArray+MASAdditions.m */; };
-		29F2150A2002852E000D9EE0 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214FC2002852D000D9EE0 /* View+MASAdditions.m */; };
-		29F2150B2002852E000D9EE0 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214FF2002852D000D9EE0 /* MASConstraint.m */; };
-		29F2150C2002852E000D9EE0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F215012002852D000D9EE0 /* MASViewConstraint.m */; };
-		29F2150D2002852E000D9EE0 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F215022002852D000D9EE0 /* MASViewAttribute.m */; };
+		C02B8A5C20079C9C00948135 /* ChieryCommonKit_a.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B8A5B20079C9C00948135 /* ChieryCommonKit_a.m */; };
+		C02B8A5D20079C9C00948135 /* ChieryCommonKit_a.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C02B8A5A20079C9C00948135 /* ChieryCommonKit_a.h */; };
+		C02B8A6520079CD700948135 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214EB2002852D000D9EE0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C02B8A6620079CD700948135 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214F42002852D000D9EE0 /* ViewController+MASAdditions.m */; };
+		C02B8A6720079CD700948135 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214F82002852D000D9EE0 /* MASCompositeConstraint.m */; };
+		C02B8A6820079CD700948135 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214F92002852D000D9EE0 /* MASConstraintMaker.m */; };
+		C02B8A6920079CD700948135 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214FA2002852D000D9EE0 /* MASLayoutConstraint.m */; };
+		C02B8A6A20079CD700948135 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214FB2002852D000D9EE0 /* NSArray+MASAdditions.m */; };
+		C02B8A6B20079CD700948135 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214FC2002852D000D9EE0 /* View+MASAdditions.m */; };
+		C02B8A6C20079CD700948135 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214FF2002852D000D9EE0 /* MASConstraint.m */; };
+		C02B8A6D20079CD700948135 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F215012002852D000D9EE0 /* MASViewConstraint.m */; };
+		C02B8A6E20079CD700948135 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F215022002852D000D9EE0 /* MASViewAttribute.m */; };
+		C02B8A6F20079CD700948135 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214EB2002852D000D9EE0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C02B8A7020079CD700948135 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214F42002852D000D9EE0 /* ViewController+MASAdditions.m */; };
+		C02B8A7120079CD700948135 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214F82002852D000D9EE0 /* MASCompositeConstraint.m */; };
+		C02B8A7220079CD700948135 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214F92002852D000D9EE0 /* MASConstraintMaker.m */; };
+		C02B8A7320079CD700948135 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214FA2002852D000D9EE0 /* MASLayoutConstraint.m */; };
+		C02B8A7420079CD700948135 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214FB2002852D000D9EE0 /* NSArray+MASAdditions.m */; };
+		C02B8A7520079CD700948135 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214FC2002852D000D9EE0 /* View+MASAdditions.m */; };
+		C02B8A7620079CD700948135 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F214FF2002852D000D9EE0 /* MASConstraint.m */; };
+		C02B8A7720079CD700948135 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F215012002852D000D9EE0 /* MASViewConstraint.m */; };
+		C02B8A7820079CD700948135 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F215022002852D000D9EE0 /* MASViewAttribute.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		29F214DA2002846E000D9EE0 /* Copy Files */ = {
+		C02B8A5620079C9C00948135 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				29F214E22002846E000D9EE0 /* ChieryCommonKit.h in Copy Files */,
+				C02B8A5D20079C9C00948135 /* ChieryCommonKit_a.h in CopyFiles */,
 			);
-			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		29F214DC2002846E000D9EE0 /* libChieryCommonKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libChieryCommonKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F214DF2002846E000D9EE0 /* ChieryCommonKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChieryCommonKit.h; sourceTree = "<group>"; };
 		29F214EA2002852D000D9EE0 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		29F214EB2002852D000D9EE0 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
@@ -63,11 +86,22 @@
 		29F215012002852D000D9EE0 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
 		29F215022002852D000D9EE0 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
 		29F215032002852D000D9EE0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29F2151020028790000D9EE0 /* ChieryCommonKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChieryCommonKit-Prefix.pch"; sourceTree = "<group>"; };
+		C02B8A3D20079C0500948135 /* ChieryCommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChieryCommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02B8A4020079C0500948135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02B8A5820079C9C00948135 /* libChieryCommonKit_a.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libChieryCommonKit_a.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02B8A5A20079C9C00948135 /* ChieryCommonKit_a.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChieryCommonKit_a.h; sourceTree = "<group>"; };
+		C02B8A5B20079C9C00948135 /* ChieryCommonKit_a.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChieryCommonKit_a.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		29F214D92002846E000D9EE0 /* Frameworks */ = {
+		C02B8A3920079C0500948135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B8A5520079C9C00948135 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				29F214DE2002846E000D9EE0 /* ChieryCommonKit */,
+				C02B8A5920079C9C00948135 /* ChieryCommonKit_a */,
 				29F214DD2002846E000D9EE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,7 +123,8 @@
 		29F214DD2002846E000D9EE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29F214DC2002846E000D9EE0 /* libChieryCommonKit.a */,
+				C02B8A3D20079C0500948135 /* ChieryCommonKit.framework */,
+				C02B8A5820079C9C00948135 /* libChieryCommonKit_a.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,7 +134,7 @@
 			children = (
 				29F214E82002852D000D9EE0 /* 3rd */,
 				29F214DF2002846E000D9EE0 /* ChieryCommonKit.h */,
-				29F2151020028790000D9EE0 /* ChieryCommonKit-Prefix.pch */,
+				C02B8A4020079C0500948135 /* Info.plist */,
 			);
 			path = ChieryCommonKit;
 			sourceTree = "<group>";
@@ -144,16 +180,36 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		C02B8A5920079C9C00948135 /* ChieryCommonKit_a */ = {
+			isa = PBXGroup;
+			children = (
+				C02B8A5A20079C9C00948135 /* ChieryCommonKit_a.h */,
+				C02B8A5B20079C9C00948135 /* ChieryCommonKit_a.m */,
+			);
+			path = ChieryCommonKit_a;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		C02B8A3A20079C0500948135 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		29F214DB2002846E000D9EE0 /* ChieryCommonKit */ = {
+		C02B8A3C20079C0500948135 /* ChieryCommonKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29F214E52002846E000D9EE0 /* Build configuration list for PBXNativeTarget "ChieryCommonKit" */;
+			buildConfigurationList = C02B8A4E20079C0500948135 /* Build configuration list for PBXNativeTarget "ChieryCommonKit" */;
 			buildPhases = (
-				29F214D82002846E000D9EE0 /* Sources */,
-				29F214D92002846E000D9EE0 /* Frameworks */,
-				29F214DA2002846E000D9EE0 /* Copy Files */,
+				C02B8A3820079C0500948135 /* Sources */,
+				C02B8A3920079C0500948135 /* Frameworks */,
+				C02B8A3A20079C0500948135 /* Headers */,
+				C02B8A3B20079C0500948135 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -161,7 +217,24 @@
 			);
 			name = ChieryCommonKit;
 			productName = ChieryCommonKit;
-			productReference = 29F214DC2002846E000D9EE0 /* libChieryCommonKit.a */;
+			productReference = C02B8A3D20079C0500948135 /* ChieryCommonKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C02B8A5720079C9C00948135 /* ChieryCommonKit_a */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02B8A5E20079C9C00948135 /* Build configuration list for PBXNativeTarget "ChieryCommonKit_a" */;
+			buildPhases = (
+				C02B8A5420079C9C00948135 /* Sources */,
+				C02B8A5520079C9C00948135 /* Frameworks */,
+				C02B8A5620079C9C00948135 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChieryCommonKit_a;
+			productName = ChieryCommonKit_a;
+			productReference = C02B8A5820079C9C00948135 /* libChieryCommonKit_a.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -170,10 +243,19 @@
 		29F214D42002846E000D9EE0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = com.chiery.com;
 				TargetAttributes = {
-					29F214DB2002846E000D9EE0 = {
+					C02B8A3C20079C0500948135 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C02B8A5720079C9C00948135 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C02B8A6120079CAE00948135 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -191,26 +273,72 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29F214DB2002846E000D9EE0 /* ChieryCommonKit */,
+				C02B8A3C20079C0500948135 /* ChieryCommonKit */,
+				C02B8A5720079C9C00948135 /* ChieryCommonKit_a */,
+				C02B8A6120079CAE00948135 /* ChieryCommonKit_Universal */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		C02B8A3B20079C0500948135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C02B8A7920079CFC00948135 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TARGET_NAME=\"ChieryCommonKit_a\"\n// Step 1. clean\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-iphoneos\"\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\"\necho \"!!!Will remove folder ${OBJROOT}\"\nrm -rf \"${OBJROOT}\"\n# Step 2. Build Device and Simulator versions\nxcodebuild -project ChieryCommonKit.xcodeproj -scheme ${TARGET_NAME} ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n// Step 3. check\nif [ ! -e \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${TARGET_NAME}.a\" ]\nthen\necho \"Build ${TARGET_NAME} for device arch failed\"\nexit -1\nfi\nxcodebuild -project ChieryCommonKit.xcodeproj -scheme ${TARGET_NAME} ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" -destination 'platform=iOS Simulator,name=iPhone 6s'\n// check\nif [ ! -e \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${TARGET_NAME}.a\" ]\nthen\necho \"Build ${TARGET_NAME} for iphonesimulator arch failed\"\nexit -1\nfi\n# Step 4. define output folder environment variable\nif [ -n \"$StaticLibrary\" ]; then\nUNIVERSAL_OUTPUTFOLDER=$StaticLibrary\nelse\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\nfi\n\n# copy public headers\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include/${TARGET_NAME}/\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 5. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${TARGET_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${TARGET_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${TARGET_NAME}.a\"\n\necho \"${UNIVERSAL_OUTPUTFOLDER}/lib${TARGET_NAME}.a\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		29F214D82002846E000D9EE0 /* Sources */ = {
+		C02B8A3820079C0500948135 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29F215092002852E000D9EE0 /* NSArray+MASAdditions.m in Sources */,
-				29F2150D2002852E000D9EE0 /* MASViewAttribute.m in Sources */,
-				29F215062002852E000D9EE0 /* MASCompositeConstraint.m in Sources */,
-				29F2150B2002852E000D9EE0 /* MASConstraint.m in Sources */,
-				29F215072002852E000D9EE0 /* MASConstraintMaker.m in Sources */,
-				29F2150C2002852E000D9EE0 /* MASViewConstraint.m in Sources */,
-				29F2150A2002852E000D9EE0 /* View+MASAdditions.m in Sources */,
-				29F215042002852D000D9EE0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				29F215082002852E000D9EE0 /* MASLayoutConstraint.m in Sources */,
-				29F215052002852D000D9EE0 /* ViewController+MASAdditions.m in Sources */,
+				C02B8A6D20079CD700948135 /* MASViewConstraint.m in Sources */,
+				C02B8A6C20079CD700948135 /* MASConstraint.m in Sources */,
+				C02B8A6620079CD700948135 /* ViewController+MASAdditions.m in Sources */,
+				C02B8A6820079CD700948135 /* MASConstraintMaker.m in Sources */,
+				C02B8A6A20079CD700948135 /* NSArray+MASAdditions.m in Sources */,
+				C02B8A6E20079CD700948135 /* MASViewAttribute.m in Sources */,
+				C02B8A6920079CD700948135 /* MASLayoutConstraint.m in Sources */,
+				C02B8A6720079CD700948135 /* MASCompositeConstraint.m in Sources */,
+				C02B8A6520079CD700948135 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				C02B8A6B20079CD700948135 /* View+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B8A5420079C9C00948135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B8A7420079CD700948135 /* NSArray+MASAdditions.m in Sources */,
+				C02B8A7820079CD700948135 /* MASViewAttribute.m in Sources */,
+				C02B8A7120079CD700948135 /* MASCompositeConstraint.m in Sources */,
+				C02B8A7620079CD700948135 /* MASConstraint.m in Sources */,
+				C02B8A7220079CD700948135 /* MASConstraintMaker.m in Sources */,
+				C02B8A5C20079C9C00948135 /* ChieryCommonKit_a.m in Sources */,
+				C02B8A7720079CD700948135 /* MASViewConstraint.m in Sources */,
+				C02B8A7520079CD700948135 /* View+MASAdditions.m in Sources */,
+				C02B8A6F20079CD700948135 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				C02B8A7320079CD700948135 /* MASLayoutConstraint.m in Sources */,
+				C02B8A7020079CD700948135 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -314,19 +442,66 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		29F214E62002846E000D9EE0 /* Debug */ = {
+		C02B8A4F20079C0500948135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ChieryCommonKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiery.ChieryCommonKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C02B8A5020079C0500948135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ChieryCommonKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiery.ChieryCommonKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C02B8A5F20079C9C00948135 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MN863V35DU;
-				GCC_PREFIX_HEADER = "ChieryCommonKit/ChieryCommonKit-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -334,16 +509,30 @@
 			};
 			name = Debug;
 		};
-		29F214E72002846E000D9EE0 /* Release */ = {
+		C02B8A6020079C9C00948135 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MN863V35DU;
-				GCC_PREFIX_HEADER = "ChieryCommonKit/ChieryCommonKit-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C02B8A6320079CAE00948135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C02B8A6420079CAE00948135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -359,11 +548,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29F214E52002846E000D9EE0 /* Build configuration list for PBXNativeTarget "ChieryCommonKit" */ = {
+		C02B8A4E20079C0500948135 /* Build configuration list for PBXNativeTarget "ChieryCommonKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29F214E62002846E000D9EE0 /* Debug */,
-				29F214E72002846E000D9EE0 /* Release */,
+				C02B8A4F20079C0500948135 /* Debug */,
+				C02B8A5020079C0500948135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02B8A5E20079C9C00948135 /* Build configuration list for PBXNativeTarget "ChieryCommonKit_a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02B8A5F20079C9C00948135 /* Debug */,
+				C02B8A6020079C9C00948135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02B8A6220079CAE00948135 /* Build configuration list for PBXAggregateTarget "ChieryCommonKit_Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02B8A6320079CAE00948135 /* Debug */,
+				C02B8A6420079CAE00948135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
